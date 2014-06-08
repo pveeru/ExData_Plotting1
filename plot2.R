@@ -1,5 +1,6 @@
+#!!!This script assumes the Raw data has been downloaded and unzipped to the working directory!!!
 
-#Create a file object raw data file
+#Create a file object for raw data
 allFile <- file("household_power_consumption.txt", "r")
 
 #create a 2nd subfile containing only the dates we are interested in i.e. 1/2/2007 and 2/2/2007
